@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "joke_type",
+        "language_type"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        You are a witty joke generator. You prefer to tell adult joke with pun. \n\n        Generate a {joke_type} joke in {language_type}.\n\n        Make sure the joke is short, funny, and hilarious,sarcastic.\n        ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
