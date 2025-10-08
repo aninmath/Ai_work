@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 from typing import Literal, Optional
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # Page config
 st.set_page_config(
@@ -38,7 +38,10 @@ difficulty_level = st.selectbox("🎯 Select Difficulty Level", ['Easy', 'Medium
 subject = st.selectbox("📚 Select Subject", ['String manipulation', 'Numpy', 'Pandas', 'Matplotlib', 'Machine learning', 'Seaborn'])
 
 # Model setup
-model = ChatGoogleGenerativeAI(model='gemini-2.5-flash')
+
+
+# api_key = os.getenv("GOOGLE_API_KEY")
+model = ChatGoogleGenerativeAI(model='gemini-2.5-flash', api_key='AIzaSyBHRdlVLauaSGnWWgoMe0Vt-PKg8PSzUVU')
 
 # Pydantic schema for question generation
 class pytem(BaseModel):
