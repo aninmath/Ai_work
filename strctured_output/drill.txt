@@ -1,48 +1,45 @@
-Fire Drill Report
 Depot Name: BNG-ECO, South Depot
-Date: 02 October 2025
-Time of Drill: 10:30 AM
-Duration: 18 minutes
-Conducted By: Safety & Compliance Team
-Drill Type: Unannounced Fire Evacuation Drill
+Date: 03 October 2025
+Time of Visit: 11:00 AM
+Duration: 1 hour 15 minutes
+Conducted By: Regional Safety Compliance Authority
+Visit Type: Scheduled Regulatory Inspection
 
 Objectives:
 
-To assess the readiness of staff during a fire emergency.
-To evaluate the effectiveness of the evacuation plan.
-To identify areas for improvement in emergency response.
+To verify compliance with fire safety and emergency response protocols.
+To inspect critical infrastructure including hydrant systems and monitoring equipment.
+To review documentation and staff preparedness.
 
 
 Summary of Events:
-At 10:30 AM, the fire alarm was triggered to simulate a fire emergency. All personnel were instructed to evacuate the building immediately and proceed to the designated assembly point.
+At 11:00 AM, the inspection team arrived at the depot and initiated the regulatory visit. The team was escorted by the Safety & Compliance Officer and began with a walkthrough of the facility.
 
-Evacuation Start Time: 10:30 AM
-Evacuation Completion Time: 10:42 AM
-Total Duration: 12 minutes for full evacuation
-All Clear Given: 10:48 AM
-Total Drill Duration: 18 minutes
+Hydrant System: Pressure and flow tests were conducted on all hydrants. All units passed the inspection.
+Monitoring Equipment: Fire alarm panels and smoke detectors were tested for responsiveness and calibration. No faults were detected.
+Documentation Review: Safety logs, drill records, and equipment maintenance sheets were reviewed and found to be up-to-date.
 
 
 Observations:
 
-Staff responded promptly and followed evacuation protocols.
-Emergency exits were used appropriately.
-Assembly point was reached in an orderly manner.
-Roll call was completed within 3 minutes of arrival at the assembly point.
+Hydrant system is well-maintained and operational.
+Monitoring systems are responsive and correctly configured.
+Staff demonstrated awareness of emergency protocols.
+Safety documentation is properly maintained.
 
 
 Issues Noted:
 
-One fire exit on the east wing was partially obstructed.
-Two employees were unaware of the nearest exit route.
+One hydrant valve showed signs of corrosion and was flagged for preventive maintenance.
+Emergency lighting in the east wing corridor was dim and needs replacement.
 
 
 Recommendations:
 
-Clear all obstructions from emergency exits.
-Conduct refresher training on evacuation routes.
-Update signage for better visibility.
+Schedule preventive maintenance for the corroded hydrant valve.
+Replace emergency lighting units in the east wing corridor.
+Continue regular internal audits to ensure ongoing compliance.
 
 
 Conclusion:
-The fire drill was successfully conducted with active participation from all staff. Minor issues were identified and will be addressed promptly to improve overall safety preparedness.
+The regulatory visit was successfully completed with positive feedback from the inspection team. Minor issues were identified and corrective actions have been initiated. The depot remains in compliance with regional safety standards.
