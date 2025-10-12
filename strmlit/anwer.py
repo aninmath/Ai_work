@@ -125,7 +125,12 @@ if st.button('✅ Check Answer'):
 
         with col1:
             st.markdown("### 🧾 Verdict")
-            st.info(result2.Verdict)
+            
+            if result2.Verdict == 'Correct':
+                    st.markdown(f"<span style='color: green; font-weight: bold;'>{result2.Verdict}</span>", unsafe_allow_html=True)
+            else:
+                st.markdown(f"<span style='color: red; font-weight: bold;'>{result2.Verdict}</span>", unsafe_allow_html=True)
+
 
         with col2:
             st.markdown("### 📊 Efficiency Score")
