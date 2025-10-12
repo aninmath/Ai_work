@@ -99,7 +99,7 @@ class pytem2(BaseModel):
     Verdict: Literal["Correct", "Wrong"] = Field(description="Mention the correctness of the code")
     Efficiency: int = Field(description="Give an efficiency score out of 100 measured against the most efficient code")
     Code: Optional[str] = Field(description="Only provide this if the verdict is Correct and efficiency is less than 100")
-    Why : Optional[str] = Field(description="Describe why the verdict is wrong and only provide this if the verdict is wrong")
+    Why : Optional[str] = Field(description="Describe why the verdict is wrong in very SHORT and CRIPS way, and only provide this if the verdict is wrong")
 
 parser_py2 = PydanticOutputParser(pydantic_object=pytem2)
 
