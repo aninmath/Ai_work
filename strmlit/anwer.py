@@ -99,6 +99,7 @@ class pytem2(BaseModel):
     Verdict: Literal["Correct", "Wrong"] = Field(description="Mention the correctness of the code")
     Efficiency: int = Field(description="Give an efficiency score out of 100 measured against the most efficient code")
     Code: Optional[str] = Field(description="Only provide this if the verdict is Correct and efficiency is less than 100")
+    Why : Optional[str] = Field(description="Describe why the verdict is wrong and only provide this if the verdict is wrong")
 
 parser_py2 = PydanticOutputParser(pydantic_object=pytem2)
 
@@ -130,9 +131,14 @@ if st.button('✅ Check Answer'):
             st.markdown("### 📊 Efficiency Score")
             st.metric(label="Efficiency", value=f"{result2.Efficiency}%")
 
-        if result2.Code:
+        if result2.Verdict == 'Correct':
             st.markdown("### 💡 Suggested Better Code")
             st.code(result2.Code, language='python')
+
+        if result2.Verdict == 'Wrong':
+            st.markdown("### 💡 why its wrong?")
+            st.info(result2.Why)
+
     else:
         st.warning("Please generate a question first before checking your answer.")
 
