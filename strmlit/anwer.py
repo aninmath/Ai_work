@@ -35,7 +35,7 @@ st.markdown("### 🚀 Generate Python questions based on your selected topic and
 
 # Select inputs
 difficulty_level = st.selectbox("🎯 Select Difficulty Level", ['Easy', 'Medium', 'Hard'])
-subject = st.selectbox("📚 Select Subject", ['String manipulation', 'Numpy', 'Pandas', 'Matplotlib', 'Machine learning', 'Seaborn'])
+subject = st.selectbox("📚 Select Subject", ['string manipulation', 'numpy', 'pandas', 'matplotlib', 'machine learning','seaborn','lambda function','list','dictionary','list comprehension','tuple','set','function','class','loop'])
 
 # Model setup
 
